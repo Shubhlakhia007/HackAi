@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HexStrike Enhanced Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { background: #2c3e50; color: white; padding: 20px; border-radius: 5px; }
+        .section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .success { color: #27ae60; }
+        .failure { color: #e74c3c; }
+        .warning { color: #f39c12; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 HexStrike Enhanced - Security Scan Report</h1>
+        <p>Generated: 2025-08-17 10:59:30</p>
+        <p>Period: Last 7 days</p>
+        
+    </div>
+
+    <div class="section">
+        <h2>📊 Scan Summary</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+            <tr><td>Total Scans</td><td>4</td></tr>
+            <tr><td>Successful Scans</td><td class="success">2</td></tr>
+            <tr><td>Failed Scans</td><td class="failure">2</td></tr>
+            <tr><td>Total Vulnerabilities</td><td class="warning">0</td></tr>
+            <tr><td>Average Duration</td><td>24.25s</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>🔧 Tool Usage</h2>
+        <table>
+            <tr><th>Tool</th><th>Usage Count</th><th>Average Duration</th></tr>
+
+            <tr>
+                <td>nmap</td>
+                <td>2</td>
+                <td>48.49s</td>
+            </tr>
+
+            <tr>
+                <td>nuclei</td>
+                <td>2</td>
+                <td>0.00s</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>📋 Recent Scans</h2>
+        <table>
+            <tr><th>Timestamp</th><th>Tool</th><th>Target</th><th>Status</th><th>Vulnerabilities</th><th>AI Summary</th></tr>
+
+            <tr>
+                <td>1755407801.5604324</td>
+                <td>nuclei</td>
+                <td>example.com</td>
+                <td class="failure">FAILED</td>
+                <td>0</td>
+                <td>Manual analysis of nuclei results for example.com...</td>
+            </tr>
+
+            <tr>
+                <td>1755407801.1542609</td>
+                <td>nmap</td>
+                <td>example.com</td>
+                <td class="success">SUCCESS</td>
+                <td>0</td>
+                <td>Manual analysis of nmap results for example.com...</td>
+            </tr>
+
+            <tr>
+                <td>1755407667.747565</td>
+                <td>nuclei</td>
+                <td>example.com</td>
+                <td class="failure">FAILED</td>
+                <td>0</td>
+                <td>Manual analysis of nuclei results for example.com...</td>
+            </tr>
+
+            <tr>
+                <td>1755407667.3391037</td>
+                <td>nmap</td>
+                <td>example.com</td>
+                <td class="success">SUCCESS</td>
+                <td>0</td>
+                <td>Manual analysis of nmap results for example.com...</td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+</html>
